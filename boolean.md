@@ -9,18 +9,18 @@ In Ruby we have the following terms (characters and phrases) for determining if 
 - == (equal)
 - >= (greater-than-equal)
 - <= (less-than-equal)
+- true
+- false
 
-true
-false
 You actually have run into these characters before, but maybe not the terms. The terms (and, or, not) actually work the way you expect them to, just like in English.
 
 #The Truth Tables
 
-We will now use these characters to make the truth tables you need to memorize.
+## We will now use these characters to make the truth tables you need to memorize.
 
-NOT	true?
-!false	true
-!true	false
+## NOT	true?
+- !false =>	true
+- !true =>	false
 
 OR (||)	true?
 true || false	true
