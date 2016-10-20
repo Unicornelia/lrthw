@@ -9,6 +9,10 @@ for number in the_count
   puts "this is count #{number}"
 end
 
+the_count.each do |number|
+  puts "This is count #{number}"
+end
+
 #same as above but more rubyist
 #this each method is better and more preferred
 # better way for ruby-loops
