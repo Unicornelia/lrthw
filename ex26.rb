@@ -1,4 +1,4 @@
-module Ex26
+module Ex25
 
   # This function will break up words for us.
   def Ex25.break_words(stuff)
@@ -39,7 +39,7 @@ module Ex26
   # Sorts the words then prints the first and last one.
   def Ex25.print_first_and_last_sorted(sentence)
     words = Ex25.sort_sentence(sentence)
-    Ex25.print_fist_word(words)
+    Ex25.print_first_word(words)
     Ex25.print_last_word(words)
   end
 end
@@ -77,7 +77,7 @@ start_point = 10000
 beans, jars, crates = secret_formula(start_point)
 
 puts "With a starting point of: #{start_point}"
-puts "We'd have #{beans beans}, #{jars} jars, and #{crates} crates."
+puts "We'd have #{beans} beans, #{jars} jars, and #{crates} crates."
 
 start_point = start_point / 10
 
@@ -86,8 +86,8 @@ words = Ex25.break_words(sentence)
 sorted_words = Ex25.sort_words(words)
 Ex25.print_first_word(words)
 Ex25.print_last_word(words)
-Ex25.print_first_word(sort_words)
+Ex25.print_first_word(sorted_words)
 Ex25.print_last_word(sorted_words)
-sorted_words = Ex25.sort_sentenc(sentence)
+sorted_words = Ex25.sort_sentence(sentence)
 Ex25.print_first_and_last(sentence)
 Ex25.print_first_and_last_sorted(sentence)
