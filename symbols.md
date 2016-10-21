@@ -32,22 +32,23 @@ if|	If conditional.	|if X; end
 in|	In part of for-loops.|	for X in Y; end
 module|	Define a new module.|	module X; end
 next|	Skip to the next element of a .each iterator.	|(0..5).each {IyI next }
-not	Logical not. But use ! instead.	not true == false
-or	Logical or.	puts "Hello" or "Goodbye"
-redo	Rerun a code block exactly the same.	(0..5).each {|i| redo if i > 2}
-rescue	Run this code if an exception happens.	begin rescue X; end
-retry	In a rescue clause, says to try the block again.	(0..5).each {|i| retry if i > 2}
-return	Returns a value from a function. Mostly optional.	return X
-self	The current object, class, or module.	defined? self == "self"
-super	The parent class of this class.	super
-then	Can be used with if optionally.	if true then puts "hi" end
-undef	Remove a function definition from a class.	undef X
-unless	Inverse of if.	unless false then puts "not" end
-until	Inverse of while, execute block as long as false.	until false; end
-when	Part of case conditionals.	case X; when Y; else; end
-while	While loop.	while true; end
-yield	Pause and transfer control to the code block.	yield
-Data Types
+not|	Logical not. But use ! instead.	|not true == false
+or|	Logical or.	|puts "Hello" or "Goodbye"
+redo|	Rerun a code block exactly the same.|	(0..5).each {IiI redo if i > 2}
+rescue|	Run this code if an exception happens.|	begin rescue X; end
+retry	|In a rescue clause, says to try the block again.|	(0..5).each {IiI retry if i > 2}
+return|	Returns a value from a function. Mostly optional.|	return X
+self|	The current object, class, or module.|	defined? self == "self"
+super|	The parent class of this class.|	super
+then|	Can be used with if optionally.|	if true then puts "hi" end
+undef|	Remove a function definition from a class.|	undef X
+unless|	Inverse of if.|	unless false then puts "not" end
+until	|Inverse of while, execute block as long as false.	|until false; end
+when|	Part of case conditionals.|	case X; when Y; else; end
+while|	While loop.	|while true; end
+yield	|Pause and transfer control to the code block.|	yield
+
+#Data Types
 
 For data types, write out what makes up each one. For example, with strings write out how you create a string. For numbers write out a few numbers.
 
