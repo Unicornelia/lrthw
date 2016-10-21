@@ -1,3 +1,4 @@
+#defining the gold room
 def gold_room
   puts "This room is fill of gold. How much do you take? (Type a number for kgs)"
 
@@ -19,6 +20,7 @@ def gold_room
   end
 end
 
+#making of the bear room
 def bear_room
   puts "There is a bear in here."
   puts "The bear has a bunch of honey."
@@ -45,6 +47,7 @@ def bear_room
   end
 end
 
+#defining the cthulhu_room
 def cthulhu_room
   puts "Here you see the great evil Cthulhu"
   puts "He, it, whatever stares at you and you go insane"
@@ -62,11 +65,13 @@ def cthulhu_room
   end
 end
 
+#this is here for dead method
 def dead(why)
   puts why, "Good job!"
   exit(0)
 end
 
+#this one for starting the whole thing
 def start
   puts "You are in a dark room"
   puts "There is a door to your right and left"
@@ -84,4 +89,5 @@ def start
   end
 end
 
+#calling the start method
 start
