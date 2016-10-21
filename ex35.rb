@@ -73,6 +73,7 @@ end
 
 #this one for starting the whole thing
 def start
+
   puts "You are in a dark room"
   puts "There is a door to your right and left"
   puts "Which one do you take?"
@@ -90,4 +91,4 @@ def start
 end
 
 #calling the start method
-start
+start()
