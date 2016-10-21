@@ -8,6 +8,8 @@ If you get one of these wrong from memory, make an index card with the correct d
 
 Finally, use each of these in a small Ruby program, or as many as you can get done. The goal is to find out what the symbol does, make sure you got it right, correct it if you do not, then use it to lock it in.
 
+https://learnrubythehardway.org/book/ex37.html
+
 ##Keywords
 
 Keyword  |Description   |  Example
