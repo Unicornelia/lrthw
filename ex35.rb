@@ -28,7 +28,7 @@ def bear_room
 
   while true
     print "> "
-    choice = $stind.gets.chomp
+    choice = $stdin.gets.chomp
 
     if choice == "take honey"
       dead("The bear looks at you then slaps your face off")
